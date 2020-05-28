@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+
+</head>
+	
+<body>
+	
+	<script>
+	
+		function sleep(ms)
+		{
+			return new Promise(resolve => setTimeout(resolve,ms));
+		}
+	
+		async function demo()
+		{
+			await sleep(5000);
+		}
+		demo();
+		document.getElementById("my_texty").innerHTML="Hi, Anastasia!";
+	</script>
+</body>	
+</html>

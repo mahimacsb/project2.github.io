@@ -1,0 +1,205 @@
+#play_button{
+	
+	align-content: center;
+	height:80px;
+	width:300px;
+	color:white;
+	font-size:35px;
+	background-color:brown;
+	border: 10px solid black;
+	display:block;
+	margin:50px auto;
+	border-radius:35px;
+	}
+#play_button:hover{
+	cursor:pointer;
+}
+
+#again_play{
+	
+			position: absolute;
+			border-radius:50px;
+			top:50px;
+			height:90px;
+			width: 80px;
+			right:350px;
+}
+
+
+#again_play:hover{
+	cursor: pointer;
+}
+
+#random_card1{
+    height:200px;
+    width:200px;
+    border: 10px ridge gray;
+    border-radius: 40px;
+}
+
+#random_card2{
+    height:200px;
+    width:200px;
+    border: 10px ridge gray;   
+    border-radius: 40px;
+}
+
+#hit_card{
+    height:200px;
+    width:200px;
+    border: 10px ridge gray;   
+    border-radius: 40px;   
+}
+
+#demo_for_bet_amount_and_wallet_amount,#player_demo,#dealer_demo,#bottom{
+	font-size: 25px;
+	color:darkred;
+	font-family: fantasy;
+}
+
+#hit{
+	     border-radius: 50%;
+         display: flex;
+         flex: 0 0 150px;
+         height: 60px;
+         justify-content: center;
+         overflow: hidden;
+         position: absolute;
+         width:60px;
+         top:270px;
+         right:259px;
+}
+#stand{
+	
+			  border-radius: 50%;
+              display: flex;
+              flex: 0 0 150px;
+              height: 60px;
+              justify-content: center;
+              overflow: hidden;
+              position: absolute;
+              width: 60px;
+              top:360px;
+              right:150px;
+}
+
+#double{
+		
+		      border-radius: 50%;
+              display: flex;
+              flex: 0 0 150px;
+              height: 60px;
+              justify-content: center;
+              overflow: hidden;
+              position: absolute;
+              width: 60px;
+              top:270px;
+              right:37px;
+}
+
+#deal{
+		
+		      border-radius: 50%;
+              display: flex;
+              flex: 0 0 150px;
+              height: 60px;
+              justify-content: center;
+              overflow: hidden;
+              position: absolute;
+              width: 60px;
+              top:170px;
+              right:150px;
+}
+
+#chip_100{
+	 			  border-radius: 50%;
+                  display: flex;
+                  flex: 0 0 150px;
+                  height: 60px;
+                  justify-content: center;
+                  overflow: hidden;
+                  position: absolute;
+                  width: 60px;
+                  top:620px;
+                  right:150px;
+}
+
+#chip_2500{
+				  border-radius: 50%;
+                  display: flex;
+                  flex: 0 0 150px;
+                  height: 60px;
+                  justify-content: center;
+                  overflow: hidden;
+                  position: absolute;
+                  width: 60px;
+                  top:560px;
+                  right:259px;
+}
+
+#chip_10K{
+	
+				  border-radius: 50%;
+                  display: flex;
+                  flex: 0 0 150px;
+                  height: 60px;
+                  justify-content: center;
+                  overflow: hidden;
+                  position: absolute;
+                  width: 60px;
+                  top:560px;
+                  right:37px;
+
+}
+
+#chip_500{
+	
+				  border-radius: 50%;
+                  display: flex;
+                  flex: 0 0 150px;
+                  height: 60px;
+                  justify-content: center;
+                  overflow: hidden;
+                  position: absolute;
+                  width: 60px;
+                  top:470px;
+                  right:150px;
+}
+
+#just_leave{
+				position: absolute;
+				border-radius:500px;
+				top:50px;
+				right:0px;
+}
+
+
+#just_leave:hover{
+	cursor: pointer;
+}
+
+#player_demo{
+				position: absolute;
+				top:299px;
+				left:550px;
+				font-family: fantasy;
+				font-size: 25px;
+}
+
+#dealer_demo{
+				position: absolute;
+				top:550px;
+				left:550px;
+				font-family: fantasy;
+				font-size: 25px;
+}
+
+#bottom{
+				position: absolute;
+				top:130px;
+				left:499px;
+				color: darkblue;
+				font-family: fantasy;
+				font-size: 50px;
+}
+

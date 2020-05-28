@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styling.css"/>
+	<style>
+	
+	
+		body{
+				background-image: url("images/all_hers/images/6.jpg");
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center
+			}
+	
+	</style>
+	
+		<script type="text/javascript">
+		
+		 function preventBack()
+			{
+				window.history.forward();
+			}
+			
+		 setTimeout("preventBack()", 0);
+		 window.onunload=function(){null};
+
+		</script>
+	
+</head>
+    
+<body>
+  
+    <button id="play_button" type="button" onclick="button_clicked()">LET'S PLAY!</button>
+	<p id="demo_for_bet_amount_and_wallet_amount"></p>
+  	<h1 id="pm"></h1>
+    <img  id="player_random_card1" src="">
+    <img  id="player_random_card2" src="">
+    <img  id="player_hit_card" src="">
+	<br/>
+	<br/>
+	<p id="player_demo"></p>
+	
+	<h1 id="dm"></h1>
+	<img  id="dealer_random_card1" src="">
+    <img  id="dealer_random_card2" src="">
+	<img  id="dealer_hit_card1" src="">
+	<img  id="dealer_hit_card2" src="">
+	<img  id="dealer_hit_card3" src="">
+	<br/>
+	<br/>
+	<p id="dealer_demo"></p>
+	<p id="bottom"></p>
+	
+	<img id="chip_100" src="images/faded_chips/100.PNG"  onclick="">
+    
+    <img id="chip_500" src="images/faded_chips/500.PNG"  onclick="">
+    <br/>
+    
+    <img id="chip_2500" src="images/faded_chips/2500.PNG"  onclick="">
+    
+    <img id="chip_10K" src="images/faded_chips/10K.PNG"  onclick="">
+	
+	<br/>
+	<br/>
+	
+	<img id="deal" src="images/faded_events/deal.PNG">
+	
+    <img id="hit" src="images/faded_events/hit.PNG">
+	
+    <br/>
+    
+    <img id="double" src="images/faded_events/double.PNG">
+	
+    <img id="stand" src="images/faded_events/stand.PNG">
+	
+	<a id="finally_leaving" href=""><img id="just_leave" src="images/just_leave.PNG" onclick="exiting()"></a>
+	
+	<img id="again_play" src="images/play_again.jpg">
+	
+	<script src="javascript_code.js">
+	</script>
+	
+</body>
+
+</html>

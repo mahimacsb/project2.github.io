@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>popup.html</title>
+      <style>
+         
+          body
+          {
+            background-image: url("images/all_hers/images/47.jpg");
+            background-attachment: fixed ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          
+          }
+         
+          .help
+          {
+			  border-radius: 15px;
+              position:absolute;
+              top: 500px;
+              left: 150px;
+              height:60px;
+              width:150px;
+          }
+		  
+		  #texty{
+			  position: absolute;
+			  color:rebeccapurple;
+			  top:280px;
+			  margin-left: 900px;
+		  }
+		  
+		  #text_input{
+			  position: absolute;
+			  margin-left:1038px;
+			  top:350px;
+			  color:purple;
+		  }
+		  
+		  .proceed{
+			  		border-radius: 35px;
+				     position:absolute;
+					 top:450px;
+					 right:150px;
+					 height:160px;
+					 width:160px;
+		  			}
+		  
+    </style>
+	  
+	  		<script type="text/javascript">
+		
+			   function preventBack(){window.history.forward();}
+				setTimeout("preventBack()", 0);
+				window.onunload=function(){null};
+		
+			</script>
+        
+    </head> 
+     <body>
+		<h4 id="texty">HOW MUCH MONEY ARE YOU CASHING IN FOR CHIPS?</h1>
+	    <input type="text" id="text_input">
+
+     <div> 
+        
+        <input type="image" src="images/helpbutton.jpg" class="help" name="help" value='open popup' onclick="openpopup()"/>
+		
+		<a  id="linker" href="" onclick="eligibility_checker()"><input type="image" class="proceed" src="images/proceed.png"/></a> 
+		 
+	 </div>
+		 
+	<script src="javascript_code.js">
+	</script>
+    
+    </body>
+    
+</html>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
